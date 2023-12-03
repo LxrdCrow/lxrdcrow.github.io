@@ -8,18 +8,99 @@
  body {
      background-color: #b3d9b0;
      min-height: 1500px;
-     background-image: url(utilities/cheng-feng-psdV2Rl-GvU-unsplash.jpg);
+     
+}
+.navbar {
+    background-color: #2E2D88; /*attenzione*/
+    margin: 0px;
+    width: 100%;
+    color: #DD68DD;
+    padding: 10px 15px;
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    box-shadow: 0px 5px 10px 3px black;
 } 
+.button1 {
+    background-color: #dd68dd; 
+    border: #8000FF double 7px;  
+    color: #191717;  
+    padding: 5px 9px;  
+    text-align: center;  
+    text-decoration: none;  
+    display: inline-block;  
+    font-size: 15px;  
+    margin: 5px 5px;  
+    margin-bottom: 9px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button2 {
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    margin-right: 150px;
+    background-color: #DD68DD;
+    color: #ffffff;
+    padding: 5px 35px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button3 {
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    margin-right: 150px;
+    background-color: #DD68DD;
+    color: #ffffff;
+    padding: 5px 35px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button4 {
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    margin-right: 150px;
+    background-color: #DD68DD;
+    color: #ffffff;
+    padding: 5px 35px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button5 {
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    background-color: #DD68DD;
+    color: #ffffff;
+    padding: 5px 35px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.background { 
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+
+}
 
 
 
 
 .titolo {
-    color: #008000;
+    color: #8000FF;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 55px;
     font-weight: 700;
+    margin: 100px;
     
 }
 
@@ -40,6 +121,9 @@
     background-image: url(utilities/mizanur-rahman-Vc0SNaIc6Gc-unsplash.jpg);
     background-size: cover;
     background-position: center;
+  
+   
+    
    
     
 
@@ -56,42 +140,49 @@
     
 }
 .chinese { /* importante! */
-    color: gold;
+    color: #ffd700;
     font-size: 70px;
     font-weight: bold;
-    top: 31%;
+    top: 48%;
     position: absolute;
-    left: 56%;
+    left: 55%;
     bottom: 55%;
     
    
     
     
     
-    
-    
-    
-    
-    
-    
-    
 }
 
-.button1 {
-    background-color: #dd68dd; 
-    border: #7812a0 double 7px;  
-    color: #191717;  
-    padding: 5px 9px;  
-    text-align: center;  
-    text-decoration: none;  
-    display: inline-block;  
-    font-size: 15px;  
-    margin: 5px 5px;  
-    margin-bottom: 9px;
-    cursor: pointer;
-    border-radius: 10px;
+
+
+.struttura { /* attenzione!*/ 
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10%;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    visibility: visible;
+    z-index: 0;
+
+   
+
+
 }
   
+.strutturaB {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15%;
+    margin-bottom: 25%;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    visibility: visible;
+    z-index: 0;
+
+}
 
   
 
@@ -100,11 +191,11 @@
 /*-- MASTER UX/UI DESIGN--*/
 
 .container-design{
-     width: 1000px;
+    width: 1000px;
     height: 1100px;
     margin: 0 auto;
     margin-top: 100px;
-    box-shadow: 12px 12px 0 #b36db7;
+    box-shadow: 10px 10px 0 #b36db7;
     border-radius: 25px 25px 25px 25px;
     display: flex;
     text-align: center;
@@ -121,10 +212,10 @@
     position: relative;
     left: 0;
     top:0;
-    color: gold;
-    background-color: orange;
+    color: #ffd700;
+    background-color: #480C85;
     margin: 0 auto;
-    border: 10px #b10e0e double;
+    border: 10px #8000FF double;
     border-radius: 25px 25px 0px 0px;
     padding: 30px;
     width: 100%;
@@ -159,6 +250,12 @@
     left: 25px;
     color: #ffffff;
 }
+.pausa {
+    background-color: #350069;
+    color:#350069;
+    margin-top: 50%;
+    
+}
 
 
 
@@ -168,7 +265,7 @@
     width: 1000px;
     height: 1100px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 300px;
     box-shadow: 10px 10px 0 #293333;
     display: flex;
     text-align: center;
@@ -180,6 +277,7 @@
     border-radius: 25px 25px 25px 25px;
 }
 
+
     
     
     
@@ -188,15 +286,16 @@
     position: relative;
     left: 0;
     top:0;
-    color: #50c878;
-    background-color: #531690;
+    color:#DD68DD ;
+    background-color: #8000FF;
     margin: 0 auto;
-    border: 10px #050402 double;
+    border: 10px #ffd700 double;
     padding: 30px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
+   
 
 }
 
@@ -228,6 +327,13 @@
     color: #ffffff;
 }
 
+.pausa2 {
+    background-color: #5e125e;
+    color: #5e125e;
+    margin-top: 50%;
+    
+}
+
 /*-- MASTER DIGITAL MARKETING--*/
 
 .container-digital{
@@ -238,7 +344,7 @@
     width: 1000px;
     height: 1100px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 300px;
     margin-bottom: 50px;
     box-shadow: 10px 10px 0 #2f012f;
     display: flex;
@@ -254,10 +360,10 @@
     position: relative;
     left: 0;
     top:0;
-    color: #2f2fd2;
-    background-color: #caac2a;
+    color: #2E2D88;
+    background-color: #ffd700;
     margin: 0 auto;
-    border: 10px #800080 double;
+    border: 10px #480C85 double;
     padding: 30px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
@@ -293,17 +399,6 @@
 }
 
 
-
-    
-
-    
-    
-
-
-
-    
-
-
 /*-- LOGO IN FONDO--*/ 
 .image-container2{
     bottom: 20px; 
@@ -323,6 +418,65 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ADATTAMENTI PER SCHERMI SMARTPHONE */
+
+@media screen and (max-width: 600px) { 
+    body {
+        background-image: url(utilities/cheng-feng-psdV2Rl-GvU-unsplash.jpg);
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+    
+    }
+
+}
+div#navbar {
+    background-color:  #2E2D88;
+    
+    padding: 5px 5px;
+    color: #DD68DD;
+    margin-bottom: 10px;
+    position: relative;
+   margin: 0 auto;
+    
+    box-shadow: 0px 5px 10px 3px black;
+} 
+
 /* 3. Selettori più specifici */
 /* 2. CSS in linea */
 /* 1. !important */
+    
+
+    
+    
+
+
+
+    
+
+
