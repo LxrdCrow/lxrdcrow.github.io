@@ -1,0 +1,473 @@
+/* Introduzione creazione struttura body */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+     background-color: #b3d9b0;
+     min-height: 1500px;
+     
+}
+.navbar {
+    position: absolute;
+    list-style-type: none;
+    margin: 20px;
+    width: 300px;
+    background-color: #2E2D88;
+    border-radius: 10px;
+    border: 2px solid gold;
+   
+
+ 
+    
+   
+  }
+  
+  li a {
+    display: block;
+    color: gold;
+    padding: 40px 60px;
+    text-decoration: none;
+    font-size: larger;
+    border-bottom: 1px solid gold;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #8000FF;
+    color: orchid;
+    border-radius: 10px;
+  }
+
+
+.background { 
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+
+}
+.button1 {
+    background-color: #dd68dd; 
+    border: #8000FF double 7px;  
+    color: #191717;  
+    padding: 5px 9px;  
+    text-align: center;  
+    text-decoration: none;  
+    display: inline-block;  
+    font-size: 15px;  
+    margin: 5px 5px;  
+    margin-bottom: 9px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+.titolo {
+    
+    color: #8000FF;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    background-color: gold;
+    border-radius: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+    
+   
+   
+    
+    
+    
+}
+
+
+
+.img-container{
+    
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px 25px 25px 25px;
+    background-image: url(utilities/mizanur-rahman-Vc0SNaIc6Gc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow:0px 0px 60px 30px rgb(160, 45, 255,1);
+    -moz-box-shadow: 0px 0px 60px 30px rgba(160,45,255,1);
+    box-shadow: 0px 0px 60px 30px rgba(160,45,235,1);
+
+    
+
+    
+}
+.container-foto{
+    position: relative;
+    margin-bottom: 270px;
+    width: 140px;
+    height: 140px;
+    border-radius: 75px;
+    
+    
+    
+}
+.chinese { /* importante! */
+    color: #ffd700;
+    font-size: 70px;
+    font-weight: bold;
+    top: 40%;
+    position: absolute;
+    left: 55%;
+    
+    
+    
+}
+
+
+
+.struttura { /* attenzione!*/ 
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10%;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    visibility: visible;
+    z-index: 0;
+
+   
+
+
+}
+  
+.strutturaB {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15%;
+    margin-bottom: 25%;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    visibility: visible;
+    z-index: 0;
+
+}
+
+  
+
+
+
+/*-- MASTER UX/UI DESIGN--*/
+
+.container-design{
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 175px;
+    -webkit-box-shadow:0px 0px 60px 30px rgb(160, 45, 255,1);
+    -moz-box-shadow: 0px 0px 60px 30px rgba(160,45,255,1);
+    box-shadow: 0px 0px 60px 30px rgba(160,45,235,1);
+    border-radius: 25px 25px 25px 25px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    background-image: url(utilities/DESIGN.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+   
+
+    
+#MasterUXUI {
+    position: relative;
+    left: 0;
+    top:0;
+    color: #ffd700;
+    background-color: #480C85;
+    margin: 0 auto;
+    border: 10px #8000FF double;
+    border-radius: 25px 25px 0px 0px;
+    padding: 30px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}   
+
+
+
+.container-design p {
+    text-align: left;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    text-wrap: wrap;
+    position: relative;
+    padding: 5px 25px;
+    top: 40px;
+    color: #ffffff;
+    
+}
+.punti-chiave { /* importante! */
+    text-align: left;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    text-wrap: wrap;
+    position: relative;
+    padding: 5px 25px;
+    margin-bottom: 70px;
+    top: 80px;
+    left: 25px;
+    color: #ffffff;
+}
+.pausa {
+    background-color: #350069;
+    color:#350069;
+    margin-top: 30%;
+    
+}
+
+
+
+
+/*-- MASTER FULL-STACK--*/
+.container-dev{
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 300px;
+    -webkit-box-shadow:0px 0px 60px 30px rgb(160, 45, 255,1);
+    -moz-box-shadow: 0px 0px 60px 30px rgba(160,45,255,1);
+    box-shadow: 0px 0px 60px 30px rgba(160,45,235,1);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    background-image: url(utilities/Coding.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px 25px 25px 25px;
+}
+
+
+    
+    
+    
+
+#MasterFullStack {
+    position: relative;
+    left: 0;
+    top:0;
+    color:#DD68DD ;
+    background-color: #8000FF;
+    margin: 0 auto;
+    border: 10px #ffd700 double;
+    padding: 30px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+   
+
+}
+
+
+.container-dev p{
+    text-align: left;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    text-wrap: wrap;
+    position: relative;
+    margin-top: 5px;
+    padding: 5px 25px;
+    top: 100px;
+    color: #ffffff;
+    
+}
+.punti-chiave2 { /* importante! */
+    text-align: left;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    text-wrap: wrap;
+    position: relative;
+    padding: 5px 25px;
+    margin-bottom: 70px;
+    top: 110px;
+    left: 25px;
+    color: #ffffff;
+}
+
+.pausa2 {
+    background-color: #5e125e;
+    color: #5e125e;
+    margin-top: 30%;
+    
+}
+
+/*-- MASTER DIGITAL MARKETING--*/
+
+.container-digital{
+    background-image: url(utilities/digitale.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px 25px 25px 25px;
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    -webkit-box-shadow:0px 0px 60px 30px rgb(160, 45, 255,1);
+    -moz-box-shadow: 0px 0px 60px 30px rgba(160,45,255,1);
+    box-shadow: 0px 0px 60px 30px rgba(160,45,235,1);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+
+
+#MasterDigitalMarketing {
+    position: relative;
+    left: 0;
+    top:0;
+    color: #2E2D88;
+    background-color: #ffd700;
+    margin: 0 auto;
+    border: 10px #480C85 double;
+    padding: 30px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+
+.container-digital p{
+    text-align: left;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    text-wrap: wrap;
+    position: relative;
+    margin-top: 5px;
+    padding: 5px 25px;
+    top: 100px;
+    color: #ffffff;
+}
+.punti-chiave3 { /* importante! */
+    text-align: left;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    text-wrap: wrap;
+    position: relative;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+    top: 110px;
+    left: 25px;
+    color: #ffffff
+}
+
+
+/*-- LOGO IN FONDO--*/ 
+.image-container2{
+    bottom: 20px; 
+    left: 20px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 7px 22px;
+    position: relative; 
+    width: 220px;
+    
+    
+    
+   
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ADATTAMENTI PER SCHERMI SMARTPHONE */
+
+@media screen and (max-width: 600px) { 
+    body {
+        background-image: url(utilities/cheng-feng-psdV2Rl-GvU-unsplash.jpg);
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+    
+    }
+
+
+div#navbar {
+    background-color:  #2E2D88;
+    padding: 5px 5px;
+    color: #DD68DD;
+    margin-bottom: 10px;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0px 5px 10px 3px black;
+ } 
+
+}
+
+
+
+/* 3. Selettori più specifici */
+/* 2. CSS in linea */
+/* 1. !important */
+    
+
+    
+    
+
+
+
+    
+
+
