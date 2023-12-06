@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+     background-color: #b3d9b0;
+     min-height: 1500px;
+     
+ }
+.cover {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+.titolo {
+    color: #8000ff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #ffd700;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px 0px;
+   
+    
+    
+}
+.sottotitolo {
+    color: #ffd700;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+/*Formazione Artistica*/
+div#container {
+    background-color: #2E2D88;
+    width: 35%;
+    height: 90vh;
+    margin: 0px;
+    margin-top: 400px;
+    -webkit-box-shadow:0px 0px 105px 45px #8000FF;
+    -moz-box-shadow: 0px 0px 105px 45px #8000FF;
+    box-shadow: 0px 0px 105px 45px #8000FF;
+    border-radius: 25px 25px 25px 25px;
+    justify-content: center;
+    margin-left: 50%;
+    
+    
+}
+h3#titolo2 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'DotGothic16', sans-serif;
+    color: #ffffff;
+ 
+    
+}
+.paragraph {
+    margin-top: 5%;
+    padding: 30px;
+    font-family: 'DotGothic16', sans-serif;
+    color: #ffffff;
+
+    
+}
+.blocco-immagini {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 75px;
+    height: 20vh;
+    bottom: 0;
+    left: 5%;
+   
+    
+
+}
+.blocco-immagini img {
+   width: 30vh;
+   height: 45vh;
+   margin: 10px;
+   
+  
+    
+}
+.blocco-immagini2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+    
+    
+    
+}
+.pausa {
+    background-color: #350069;
+    color:#350069;
+    margin-top: 15%;
+    
+}
+
+/*Formazione Umanistica*/
+div#container2 {
+    background-color: #2E2D88;
+    width: 35%;
+    height: 90vh;
+    margin: 0px;
+    margin-top: 200px;
+    -webkit-box-shadow:0px 0px 105px 45px #8000FF;
+    -moz-box-shadow: 0px 0px 105px 45px #8000FF;
+    box-shadow: 0px 0px 105px 45px #8000FF;
+    border-radius: 25px 25px 25px 25px;
+    justify-content: center;
+    margin-left: 50%;
+    
+    
+}
+h3#titolo3 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'DotGothic16', sans-serif;
+    color: #ffffff;
+    
+ 
+    
+}
+.blocco-immagini3 { 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    height: 5vh;
+    left: 5%;
+    
+    
+   
+    
+
+}
+.psicologia{
+    
+    width: 40%;
+    height: 100vh;
+    
+    
+ 
+    
+
+}
+.cinese{
+    
+    width: 40%;
+    margin-top: 10px;
+    height: 100vh;
+    margin-bottom: 50%;
+   
+    
+
+}
+
+/*Formazione Digitale*/
+div#container3 {
+    background-color: #2E2D88;
+    width: 35%;
+    height: 90vh;
+    margin: 0px;
+    margin-top: 200px;
+    -webkit-box-shadow:0px 0px 105px 45px #8000FF;
+    -moz-box-shadow: 0px 0px 105px 45px #8000FF;
+    box-shadow: 0px 0px 105px 45px #8000FF;
+    border-radius: 25px 25px 25px 25px;
+    justify-content: center;
+    margin-left: 50%;
+    
+    
+}
+h3#titolo4 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'DotGothic16', sans-serif;
+    color: #ffffff;
+    
+ 
+    
+}
+.blocco-immagini4 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    height: 5vh;
+    left: 5%;
+}
+.code{ 
+    
+    width: 700px;
+    margin-bottom: 100%;
+    
+   
+    
+    
+
+}
+
+
+
+
+
+
+    
+
+
+
