@@ -1,630 +1,273 @@
-/* Introduzione creazione struttura body */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-   
-    
-    
 }
-
-
-.navbar {
-    position: absolute;
-    list-style-type: none;
-    margin: 20px;
-    width: 300px;
-    background-color: #2E2D88;
-    border-radius: 10px;
-    border: 2px solid gold;
-
-}
-  
-  li a {
-    display: block;
-    color: gold;
-    padding: 40px 60px;
-    text-decoration: none;
-    font-size: larger;
-    border-bottom: 1px solid gold;
-    cursor: pointer;
-  }
-  
-  /* Change the link color on hover */
-  li a:hover {
-    background-color: #8000FF;
-    color: orchid;
-    border-radius: 10px;
-}
-
-
-.background { 
+ body {
+     background-color: #b3d9b0;
+     min-height: 1500px;
+     
+ }
+.cover {
     width: 100%;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
     object-fit: cover;
-    z-index: -2;
-
+    z-index: -1;
 }
-.button1 {
-    background-color: #dd68dd; 
-    border: #8000FF double 7px;  
-    color: #191717;  
-    padding: 5px 9px;  
-    text-align: center;  
-    text-decoration: none;  
-    display: inline-block;  
-    font-size: 15px;  
-    margin: 5px 5px;  
-    margin-bottom: 9px;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-
-
-
 .titolo {
-    
-    color: #8000FF;
+    color: #8000ff;
     text-align: center;
-    font-size: 55px;
-    font-weight: 700;
-    background-color: gold;
+    margin: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #ffd700;
     border-radius: 25px;
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 20px;
-    
+    padding: 10px 0px;
    
-   
-    
     
     
 }
-
-
-
-.img-container{
+.sottotitolo {
+    color: #ffd700;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 50px;
     
-    width: 400px;
-    height: 500px;
-    margin: 0 auto;
-    margin-top: 210px;
+
+}
+
+/*Formazione Artistica*/
+div#container {
+    background-color: #2E2D88;
+    width: 35%;
+    height: 90vh;
+    margin: 0px;
+    margin-top: 300px;
+    -webkit-box-shadow:0px 0px 105px 45px #8000FF;
+    -moz-box-shadow: 0px 0px 105px 45px #8000FF;
+    box-shadow: 0px 0px 105px 45px #8000FF;
+    border-radius: 25px 25px 25px 25px;
+    justify-content: center;
+    margin-left: 50%;
+    
+    
+}
+h3#titolo2 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Serif', serif;
+    color: #ffffff;
+ 
+    
+}
+.paragraph {
+    margin-top: 5%;
+    padding: 30px;
+    font-family: 'Roboto Serif', serif;
+    color: #ffffff;
+
+    
+}
+.blocco-immagini {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 85px;
+    height: 20vh;
+    bottom: 0;
+    left: 7%;
+   
+    
+
+}
+.blocco-immagini img {
+   width: 25vh;
+   height: 40vh;
+   margin: 10px;
+   
+  
+    
+}
+.blocco-immagini2 {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border-radius: 25px 25px 25px 25px;
-    background-image: url(utilities/mizanur-rahman-Vc0SNaIc6Gc-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    -webkit-box-shadow:0px 0px 60px 30px rgb(160, 45, 255,1);
-    -moz-box-shadow: 0px 0px 60px 30px rgba(160,45,255,1);
-    box-shadow: 0px 0px 60px 30px rgba(160,45,235,1);
-
-    
-
-    
-}
-.container-foto{
-    position: relative;
-    margin-bottom: 270px;
-    width: 140px;
-    height: 140px;
-    border-radius: 75px;
+    height: 130vh;
     
     
     
-}
-.chinese { 
-    color: #ffd700;
-    font-size: 70px;
-    font-weight: bold;
-    top: 40%;
-    position: absolute;
-    left: 55%;
-    
-    
-    
-}
-
-
-
-.struttura { 
-    text-align: center;
-    color: #ffffff;
-    margin-top: 10%;
-    font-family: 'Roboto Serif', serif;
-    font-size: 40px;
-    font-weight: 900;
-    visibility: visible;
-    z-index: 0;
-
-   
-
-
-}
-  
-.strutturaB {
-    text-align: center;
-    color: #ffffff;
-    margin-top: 15%;
-    margin-bottom: 25%;
-    font-family: 'Roboto Serif', serif;
-    font-size: 40px;
-    font-weight: 900;
-    visibility: visible;
-    z-index: 0;
-
-}
-
-  
-
-
-
-/*-- MASTER UX/UI DESIGN--*/
-
-.container-design{
-    width: 800px;
-    height: 1000px;
-    margin: 0 auto;
-    margin-top: 175px;
-    -webkit-box-shadow:0px 0px 60px 30px rgb(160, 45, 255,1);
-    -moz-box-shadow: 0px 0px 60px 30px rgba(160,45,255,1);
-    box-shadow: 0px 0px 60px 30px rgba(160,45,235,1);
-    border-radius: 25px 25px 25px 25px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    position: relative;
-    background-image: url(utilities/DESIGN.jpg);
-    background-size: cover;
-    background-position: center;
-    
-    
-
-}
-   
-   
-
-    
-#MasterUXUI {
-    position: relative;
-    left: 0;
-    top:0;
-    color: #ffd700;
-    background-color: #480C85;
-    margin: 0 auto;
-    border: 10px #8000FF double;
-    border-radius: 25px 25px 0px 0px;
-    padding: 30px;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-}   
-
-
-
-.container-design p {
-    text-align: left;
-    font-family: 'Roboto Serif', serif;
-    font-size: 17px;
-    font-weight: 800;
-    text-wrap: wrap;
-    position: relative;
-    padding: 5px 25px;
-    top: 40px;
-    color: #ffffff;
-    
-}
-.punti-chiave { 
-    text-align: left;
-    font-family: 'Roboto Serif', serif;
-    font-size: 15px;
-    font-weight: 800;
-    text-wrap: wrap;
-    position: relative;
-    padding: 5px 25px;
-    margin-bottom: 70px;
-    top: 80px;
-    left: 25px;
-    color: #ffffff;
 }
 .pausa {
     background-color: #350069;
     color:#350069;
-    margin-top: 30%;
+    margin-top: 15%;
     
 }
 
-
-
-
-/*-- MASTER FULL-STACK--*/
-.container-dev{
-    width: 800px;
-    height: 1000px;
-    margin: 0 auto;
-    margin-top: 300px;
-    -webkit-box-shadow:0px 0px 60px 30px rgb(160, 45, 255,1);
-    -moz-box-shadow: 0px 0px 60px 30px rgba(160,45,255,1);
-    box-shadow: 0px 0px 60px 30px rgba(160,45,235,1);
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    position: relative;
-    background-image: url(utilities/Coding.jpg);
-    background-size: cover;
-    background-position: center;
+/*Formazione Umanistica*/
+div#container2 {
+    background-color: #2E2D88;
+    width: 35%;
+    height: 90vh;
+    margin: 0px;
+    margin-top: 200px;
+    -webkit-box-shadow:0px 0px 105px 45px #8000FF;
+    -moz-box-shadow: 0px 0px 105px 45px #8000FF;
+    box-shadow: 0px 0px 105px 45px #8000FF;
     border-radius: 25px 25px 25px 25px;
-}
-
-
+    justify-content: center;
+    margin-left: 50%;
     
     
-    
-
-#MasterFullStack {
-    position: relative;
-    left: 0;
-    top:0;
-    color:#DD68DD ;
-    background-color: #8000FF;
-    margin: 0 auto;
-    border: 10px #ffd700 double;
-    padding: 30px;
-    width: 100%;
-    border-radius: 25px 25px 0px 0px;
-    font-size: 50px;
-   
-
 }
-
-
-.container-dev p{
-    text-align: left;
-    font-family: 'Roboto Serif', serif;
-    font-size: 17px;
-    font-weight: 800;
-    text-wrap: wrap;
-    position: relative;
-    margin-top: 5px;
-    padding: 5px 25px;
-    top: 100px;
-    color: #ffffff;
-    
-}
-.punti-chiave2 { 
-    text-align: left;
-    font-family: 'Roboto Serif', serif;
-    font-size: 15px;
-    font-weight: 800;
-    text-wrap: wrap;
-    position: relative;
-    padding: 5px 25px;
-    margin-bottom: 70px;
-    top: 110px;
-    left: 25px;
-    color: #ffffff;
-}
-
-.pausa2 {
-    background-color: #5e125e;
-    color: #5e125e;
-    margin-top: 30%;
-    
-}
-
-/*-- MASTER DIGITAL MARKETING--*/
-
-.container-digital{
-    background-image: url(utilities/digitale.webp);
-    background-size: cover;
-    background-position: center;
-    border-radius: 25px 25px 25px 25px;
-    width: 800px;
-    height: 1000px;
-    margin: 0 auto;
-    margin-top: 300px;
-    margin-bottom: 50px;
-    -webkit-box-shadow:0px 0px 60px 30px rgb(160, 45, 255,1);
-    -moz-box-shadow: 0px 0px 60px 30px rgba(160,45,255,1);
-    box-shadow: 0px 0px 60px 30px rgba(160,45,235,1);
+h3#titolo3 {
+    padding: 15px;
     display: flex;
-    text-align: center;
-    flex-direction: column;
-    position: relative;
-    
-}
-
-
-
-#MasterDigitalMarketing {
-    position: relative;
-    left: 0;
-    top:0;
-    color: #2E2D88;
-    background-color: #ffd700;
-    margin: 0 auto;
-    border: 10px #480C85 double;
-    padding: 30px;
-    width: 100%;
-    border-radius: 25px 25px 0px 0px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-}
-
-
-.container-digital p{
-    text-align: left;
+    justify-content: center;
     font-family: 'Roboto Serif', serif;
-    font-size: 17px;
-    font-weight: 800;
-    text-wrap: wrap;
-    position: relative;
-    margin-top: 5px;
-    padding: 5px 25px;
-    top: 100px;
     color: #ffffff;
-}
-.punti-chiave3 { 
-    text-align: left;
-    font-family: 'Roboto Serif', serif;
-    font-size: 15px;
-    font-weight: 800;
-    text-wrap: wrap;
-    position: relative;
-    padding: 5px 25px;
-    margin-bottom: 25px;
-    top: 110px;
-    left: 25px;
-    color: #ffffff
-}
-
-
-/*-- LOGO IN FONDO--*/ 
-.image-container2{
-    bottom: 20px; 
-    left: 20px;
-    background-color: #ffffff;
-    border-radius: 25px;
-    padding: 7px 22px;
-    position: relative; 
-    width: 220px;  
+    
+ 
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ADATTAMENTI PER SCHERMI SMARTPHONE */
-
-@media screen and (max-width: 600px) { 
-    body {
-        background-image: url(utilities/cheng-feng-psdV2Rl-GvU-unsplash.jpg);
-        width: 100%;
-        height: 100vh;
-        position: relative;
-        top: 0;
-        left: 0;
-        object-fit: cover;
-        z-index: -1;
+.blocco-immagini3 { 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    height: 5vh;
+    left: 5%;
     
-    }
-
-
-    .navbar {
-        overflow: hidden;
-        margin: 0;
-        top: 0;
-        left: 10px;
-        width: 100px;
-        background-color: #2E2D88;
-        border-radius: 10px;
-        border: 2px solid gold;
-        
     
-    }
    
+    
 
-      
-    li a {
-        
-        font-size: 8px;
-        text-align: justify;
-        margin: 0;
-        left: 0;
-        padding: 15px 25px;
-        text-decoration: none;
-        cursor: pointer;
-        
-      }
+}
+.psicologia{
+    
+    width: 40%;
+    height: 100vh;
+    
+    
+ 
+    
 
+}
+.cinese{
+    
+    width: 40%;
+    margin-top: 10px;
+    height: 100vh;
+    margin-bottom: 50%;
+   
+    
+
+}
+
+/*Formazione Digitale*/
+div#container3 {
+    background-color: #2E2D88;
+    width: 35%;
+    height: 90vh;
+    margin: 0px;
+    margin-top: 200px;
+    -webkit-box-shadow:0px 0px 105px 45px #8000FF;
+    -moz-box-shadow: 0px 0px 105px 45px #8000FF;
+    box-shadow: 0px 0px 105px 45px #8000FF;
+    border-radius: 25px 25px 25px 25px;
+    justify-content: center;
+    margin-left: 50%;
+    
+    
+}
+h3#titolo4 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Serif', serif;
+    color: #ffffff;
+    
+ 
+    
+}
+.blocco-immagini4 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    height: 5vh;
+    left: 5%;
+}
+.code{ 
+    
+    width: 700px;
+    margin-bottom: 100%;  
+
+}
+#info {
+    font-size: 20px;
+    text-align: center;
+    color: gold;
+    padding: 4rem;
+}
+a{
+    color: gold;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+
+    
+}
+a:hover {
+    text-decoration: underline;
+    color: orchid;
+    
+
+}
+
+
+
+
+
+/* SMARTPHONE RESPONSIVE */
+
+@media screen and (max-widht: 600px) {
+    
     .titolo {
-    
-    font-size: 30px;
-    font-weight: 700;
-    border-radius: 25px;
-    margin-left: 30%;
-    margin-right: 20%;
-    margin-top: 20px;
-    right: 0;
-
-
- }
-
-    .chinese { 
-  
-    font-size: 50px;
-    top: 45%;
-    left: 65%;
-    
-    
-    
-}
-    #MasterUXUI {
-
-    padding: 20px;
-    width: 100%;
-    font-size: 30px;
-}  
-
-    .container-design{
-    width: 400px;
-    height: 600px;
-    margin-top: 155px;
-  
-
-    
-
-}
-    .container-design p {
-    
-    font-size: 7px;
-    font-weight: 800;
-    padding: 5px 15px;
-    top: 30px;
-    
-    
-}
-.punti-chiave { 
-  
-    font-size: 7px;
-    font-weight: 800;
-    padding: 5px 15px;
-    margin-bottom: 50px;
-    top: 40px;
-   
-   
+        
+        margin: 80px;
+        font-size: 150px;
+        color: #ffffff;
+        margin-top: 300px;
+        
+        
+    }
 
 
 
-}
-
-.struttura { 
-    
-    margin-top: 10%;
-    font-size: 20px;
-    font-weight: 800;
-    z-index: 0;
-
-   
-
-
-}
-  
-.strutturaB {
-   
-    margin-top: 10%;
-    margin-bottom: 20%;
-    font-size: 20px;
-    font-weight: 800;
-    z-index: 0;
-
-}
-
-.container-dev{
-    width: 400px;
-    height: 600px;
-    margin-top: 155px;
-}
-
-
-    
-    
-    
-
-#MasterFullStack {
-    padding: 20px;
-    width: 100%;
-    font-size: 30px;
-   
-
-}
-
-
-.container-dev p{
-    font-size: 7px;
-    font-weight: 800;
-    padding: 5px 15px;
-    top: 30px;
-    
-}
-.punti-chiave2 { 
-    font-size: 7px;
-    font-weight: 800;
-    padding: 5px 15px;
-    margin-bottom: 50px;
-    top: 40px;
-   
-}
-
-.container-digital{
-    width: 400px;
-    height: 600px;
-    margin-top: 155px;
-    
-}
 
 
 
-#MasterDigitalMarketing {
-    padding: 20px;
-    width: 100%;
-    font-size: 30px;
-}
-
-
-.container-digital p{
-    font-size: 7px;
-    font-weight: 800;
-    padding: 5px 15px;
-    top: 30px;
-}
-.punti-chiave3 { 
-    font-size: 7px;
-    font-weight: 800;
-    padding: 5px 15px;
-    margin-bottom: 50px;
-    top: 40px;
-}
 
 
 }
 
 
 
-/* 3. Selettori più specifici */
-/* 2. CSS in linea */
-/* 1. !important */
-    
-
-    
-    
-
 
 
     
+
 
 
