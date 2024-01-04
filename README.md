@@ -1,6 +1,6 @@
 PROGETTO HTML E CSS DI FEDERICO GRASSO
 
-Homepage+Menù
+Homepage+Navbar
 - About me
 - Curriculum
 - Contacts
