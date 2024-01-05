@@ -439,7 +439,7 @@ body {
 }
 
 /*Formazione Artistica*/
-div#container {
+.container1 {
     background-color: #2E2D88;
     width: 35%;
     height: 90vh;
@@ -510,7 +510,7 @@ h3#titolo2 {
 }
 
 /*Formazione Umanistica*/
-div#container2 {
+div.container2 {
     background-color: #2E2D88;
     width: 35%;
     height: 90vh;
@@ -571,7 +571,7 @@ h3#titolo3 {
 }
 
 /*Formazione Digitale*/
-div#container3 {
+div.container3 {
     background-color: #2E2D88;
     width: 35%;
     height: 90vh;
