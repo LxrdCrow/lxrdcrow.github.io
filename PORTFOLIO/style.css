@@ -455,7 +455,7 @@ body {
     
 }
 h3#titolo2 {
-    padding: 1em;
+    padding: 1.5em;
     text-align: center;
     font-family: 'Roboto Serif', serif;
     color: #ffffff;
@@ -525,9 +525,8 @@ div.container2 {
     
 }
 h3#titolo3 {
-    padding: 45px;
-    display: flex;
-    justify-content: center;
+    padding: 1.5em;
+    text-align: center;
     font-family: 'Roboto Serif', serif;
     color: #ffffff;
     
@@ -586,9 +585,8 @@ div.container3 {
     
 }
 h3#titolo4 {
-    padding: 45px;
-    display: flex;
-    justify-content: center;
+    padding: 1.5em;
+    text-align: center;
     font-family: 'Roboto Serif', serif;
     color: #ffffff;
     
