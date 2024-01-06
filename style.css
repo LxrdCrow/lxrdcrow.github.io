@@ -133,6 +133,11 @@ body {
     font-weight: bold; 
     margin-left: 1em;   
 }
+.paragraph { 
+    
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
   
 
 
