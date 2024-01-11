@@ -1,0 +1,417 @@
+/* Introduzione creazione struttura body */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+   
+    
+    
+}
+body {
+    background-color: #350069;
+    background-image: url(img/mizanur-rahman-Vc0SNaIc6Gc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+/*           NAVBAR         */
+.navbar{
+    background-color: #480C85; 
+    padding: 15px; 
+    margin-bottom: 50px;
+    border-bottom: 2px solid #FFD700;
+}
+.navbar-toggler {
+    color:  #2E2D88;
+    border-color:#3C5A99;
+    border-bottom: none;
+  }
+
+ul.navbar{
+    border: none;
+    border-bottom: 0;
+}
+
+li.nav-item{
+    list-style: none;
+}
+
+li.nav-item a.nav-link{
+    color: #FFD700; 
+    font-weight: 600;
+    font-size: 30px;
+}
+
+li.nav-item a.nav-link:hover{
+    color: #fff; 
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 11px;
+}
+
+
+
+.nav-form{
+    display: flex;
+    justify-content: center;
+}
+
+input.form-control:hover{
+    cursor: pointer;
+}
+
+button.btn{
+    background-color: #FFD700;
+    color:black;
+    padding: 15px;
+}
+
+button.btn:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+.fa-body {
+    color: #FFD700;
+    font-size: 50px;
+    padding: 15px 0;
+    margin: 15px 0;
+}
+
+.container{ 
+    width: 100%; 
+    height: 100vh; 
+    border-radius: 25px 25px 25px 25px;
+    background-color: #480C85;
+}
+
+.row{
+    align-items: center;
+    
+}
+div.card-body{
+   
+    padding: 20px;
+}
+
+
+
+
+h4.card-text{
+    color: gold; 
+    padding: 20px 0 10px 0;
+   
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p.card-text{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.cardList .listItem{
+    list-style-type: none;
+}
+.cardList .listItem i{
+    color: #8000FF;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 11px; 
+    padding: 8px;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+/*CURRICULUM*/
+
+
+   
+    .img-cv {
+        max-width: 200px;
+        max-height: 300px;
+        border-radius: 50px;
+        margin-top: 2em;
+        position: absolute;
+        left: 20%;
+       
+       
+    }
+   
+    .container-lavoro {
+      text-align: center;
+      width: 300px;
+      padding: 40px;
+      border-radius: 25px;
+      
+    }
+    
+    .container-formazione {
+      text-align: center;
+      padding: 40px;
+      width: 400px;
+      margin-left: 50%;
+      border-radius: 25px;
+      
+    }
+    
+    .container-lavoro ul li,
+    .container-formazione ul li {
+        list-style: none;
+        
+    }
+    .skill-A{
+        margin-top: 30%;
+        margin-left: 25%;
+        border: solid 5px orchid;
+        width: 500px;
+        padding: 20px;
+        border-radius: 25px;
+        background-color: #2E2D88;
+      
+    }
+    
+    .skill-B{
+        margin-top: 30%;
+        margin-left: 25%;
+        border: solid 5px orchid;
+        width: 500px;
+        padding: 20px;
+        border-radius: 25px;
+        background-color: #2E2D88;
+          
+    }
+    .skill-A h2{
+        margin: 1rem;
+        color: gold;
+    }
+    .skill-B h2{
+        margin: 1rem;
+        color: gold;
+    }
+    
+    .skill-A p{
+        margin: 2rem;
+        color: gold;
+    }
+    .skill-B p{ 
+        margin: 2rem;
+        color: gold;
+    }
+    .progress-container {
+        margin: 1rem;
+        margin-bottom: 5rem;
+        width: 300px;
+        background-color: #fff;
+        border-radius: 4px;
+        overflow: hidden;
+        
+      }
+      
+      .progress-bar1 {
+        background-color: #8000FF;
+        width: 80%;
+        height: 30px;
+      
+    }
+    
+    .progress-bar2 {
+        background-color: #8000FF;
+        width: 100%;
+        height: 30px;
+      
+    }
+    .progress-bar3 {
+        background-color: #8000FF;
+        width: 75%;
+        height: 30px;
+      
+    }
+    .progress-bar4 {
+        background-color: #8000FF;
+        width: 60%;
+        height: 30px;
+      
+    }
+    .progress-bar5 {
+        background-color: #8000FF;
+        width: 70%;
+        height: 30px;
+      
+    }
+    .progress-bar6 {
+        background-color: #8000FF;
+        width: 70%;
+        height: 30px;
+      
+    }
+    .progress-bar7 {
+        background-color: #8000FF;
+        width: 50%;
+        height: 30px;
+      
+    }
+    .progress-bar8 {
+        background-color: #8000FF;
+        width: 10%;
+        height: 30px;
+      
+    }
+    
+    .skill-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;  
+        
+    }
+
+    a:hover{
+        color: orchid;
+    }
+  
+  
+   
+
+
+
+
+/*CONTATTI*/
+
+
+
+form{
+    padding: 1em;
+}
+
+.form-title{
+    line-height: 1;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+
+.form-text{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: gold;
+    text-wrap: wrap;
+}
+
+.form-label{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn-footer{
+    background-color: #333;
+    color:#fff;
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+
+/*          FOOTER          */
+
+
+
+.card-body{
+    text-align: center;
+    padding: 0;
+    background-color: #480C85;
+    
+}
+.card-body h5{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.card-body p{
+    color: #fff;
+    padding: 15px 0;
+}
+
+.card-footer .footer-links{
+    text-decoration: none;
+}
+
+.card-footer .footer-links i{
+    color: gold;
+    background-color: #fff;
+    border-radius: 11px; 
+    padding: 8px;
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ADATTAMENTI PER SCHERMI SMARTPHONE */
+
+@media screen and (max-width: 600px) { 
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+    ul.navbar{
+        border: none;
+        border-bottom: 0;
+    }
+
+    li.nav-item a.nav-link{
+        color: #fff; 
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    .cardList .listItem i{
+        font-size: 28px;
+    }
+
+
+
+    
+   
+
+
+
+
+}
+
+
+    
+
+    
+    
+
+
+
+    
+
+
